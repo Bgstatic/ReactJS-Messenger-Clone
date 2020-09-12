@@ -1,0 +1,29 @@
+  
+.App {
+  text-align: center;
+}
+
+.app__form {
+  padding: 20px;
+  position: fixed;
+  bottom: 0px;
+  z-index: 1;
+  background-color: #e9e9eb;
+  width: 90%;
+  margin: 20px;
+}
+
+.MuiFormControl-root {
+  display: flex !important;
+  flex-direction: row !important;
+  border-radius: 15%;
+
+}
+
+.app__input {
+  flex: 0.95;
+}
+
+.app__iconButton {
+  flex: 0;
+}
